@@ -15,3 +15,6 @@ mongoose.connect('mongodb+srv://Yuvaraj:181024yr@myprojectcluster.lbvcn.mongodb.
 
     console.log("Successfully Updated");
     
+app.get ('/',(req,res)=> {
+    res.send("Server Reacted")
+})
